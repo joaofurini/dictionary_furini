@@ -1,16 +1,20 @@
-# dictionary_furini
+# Dicionário em Flutter
 
-A new Flutter project.
+Este é um projeto de dicionário desenvolvido em Flutter que adere aos princípios do SOLID. Ele oferece a capacidade de buscar definições de palavras a partir de uma API online, suporta funcionamento offline para palavras previamente pesquisadas e permite que os usuários adicionem palavras aos seus favoritos.
 
-## Getting Started
+## Funcionalidades
 
-This project is a starting point for a Flutter application.
+- Pesquisa de definições de palavras online a partir de uma API.
+- Armazenamento local de definições para uso offline.
+- Funcionalidade de adicionar palavras aos favoritos.
+- Interface de usuário intuitiva e agradável Material Design Guidelines.
+- Aplicação dos princípios SOLID para manter o código organizado e escalável.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Flutter: Framework de desenvolvimento de aplicativos multiplataforma.
+- Dio: Biblioteca para chamadas HTTP.
+- Flutter Local Storage: Biblioteca para armazenamento local.
+- Outras dependências: Consulte o arquivo `pubspec.yaml` para obter detalhes sobre as dependências do projeto.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
